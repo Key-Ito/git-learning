@@ -3,6 +3,8 @@
 
 New Info
 
+ssh-keygen -t ed25519 -b 4096
+
 eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/ssh-key-01
